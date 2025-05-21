@@ -1,6 +1,6 @@
-module go-render-api
+module github.com/yourusername/ArtVideoTube/backend
 
-go 1.18
+go 1.21
 
 require (
     github.com/gin-gonic/gin v1.7.4

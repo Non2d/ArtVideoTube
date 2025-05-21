@@ -5,7 +5,7 @@ import (
     "net/http"
     "os"
 
-    "go-render-api/internal/handlers"
+    "github.com/Non2d/ArtVideoTube/backend/internal/handlers"
 )
 
 func main() {
