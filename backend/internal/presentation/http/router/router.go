@@ -11,7 +11,7 @@ import (
 
 func New() *mux.Router {
 	// Initialize dependencies for the "item" domain
-	repo := itemRepo.NewMemoryRepository()
+	repo := itemRepo.NewMockRepository()
 	useCase := itemUseCase.NewUseCase(repo)
 	service := itemService.NewService(useCase)
 	h := handler.NewItemHandler(service)
