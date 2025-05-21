@@ -4,7 +4,7 @@ import (
     "net/http"
     "encoding/json"
     "github.com/gorilla/mux"
-    "go-render-api/internal/models"
+    "github.com/Non2d/ArtVideoTube/backend/internal/models"
 )
 
 var items []models.Item
